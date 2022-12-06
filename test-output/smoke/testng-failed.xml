@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smoke]">
+  <test thread-count="5" name="addCustomerTest(failed)">
+    <classes>
+      <class name="Test.addCustomerTest">
+        <methods>
+          <include name="monthsAddDuplicateCategoryTest"/>
+        </methods>
+      </class> <!-- Test.addCustomerTest -->
+    </classes>
+  </test> <!-- addCustomerTest(failed) -->
+</suite> <!-- Failed suite [smoke] -->
